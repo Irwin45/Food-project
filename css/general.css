@@ -34,6 +34,7 @@ Greys:
 #333
 
 -- 05 Shadows
+box-shadow: 0 2.3rem 4.8rem rgba(0, 0, 0, 0.075);
 
 -- 06  Border-Radius\
 default: 9px
@@ -211,7 +212,7 @@ body {
 }
 
 .margin-bottom-md {
-  margin-bottom: 4.8rem;
+  margin-bottom: 4.8rem !important  ;
 }
 
 .center-text {
