@@ -15,6 +15,7 @@ Default: 1
 small: 1.05
 medium: 1.2
 paragraph default: 1.6
+large: 1.8
 
 Letter spacing
 -0,5px
@@ -56,6 +57,7 @@ Spacing system (px)
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -219,6 +221,7 @@ a {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 .list-item {
