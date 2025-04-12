@@ -855,13 +855,14 @@
                 Dicta, laborum totam quos accusamus molestiae omnis eligendi
                 distinctio dolorem!
               </p>
-              <from class="cta-form" action="#">
+              <from class="cta-form" name="sing-up" netlify>
                 <div class="">
                   <label for="full-name">Full Name</label>
                   <input
                     id="full-name"
                     type="text"
                     placeholder="John Smith"
+                    name="full-name"
                     required
                   />
                 </div>
@@ -872,13 +873,14 @@
                     id="email"
                     type="email"
                     placeholder="me@exampel.com"
+                    name="email"
                     required
                   />
                 </div>
 
                 <div class="">
                   <label for="select-where">Where did you hear us?</label>
-                  <select name="" id="select-where" required>
+                  <select name="select-where" id="select-where" required>
                     <option value="">Please choose one option:</option>
                     <option value="friends">Friends and family</option>
                     <option value="youtube">Youtube video</option>
